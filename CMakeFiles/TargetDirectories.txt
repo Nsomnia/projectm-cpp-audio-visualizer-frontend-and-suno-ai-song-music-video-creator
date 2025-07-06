@@ -1,0 +1,12 @@
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/AuroraVisualizer.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/test.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/edit_cache.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/rebuild_cache.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/AuroraVisualizer_autogen_timestamp_deps.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/CMakeFiles/AuroraVisualizer_autogen.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/AuroraTests.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/test.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/edit_cache.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/rebuild_cache.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/AuroraTests_autogen_timestamp_deps.dir
+/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/CMakeFiles/AuroraTests_autogen.dir

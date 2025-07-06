@@ -33,6 +33,7 @@ public:
 
     QString fontPath() const { return value("Font/path", "/usr/share/fonts/TTF/DejaVuSans.ttf").toString(); }
     int fontSize() const { return value("Font/size", 48).toInt(); }
+    bool shuffleEnabled() const { return value("Visualizer/shuffle", false).toBool(); }
 
     int titleLineLengthTarget() const { return value("Title/line_length_target", 20).toInt(); }
     int lyricsLineLengthTarget() const { return value("Lyrics/line_length_target", 40).toInt(); }

@@ -39,6 +39,8 @@ private slots:
     void openLyricsFile();
     void advanceLyrics();
     void checkSongFinished();
+    void nextPreset();
+    void prevPreset();
 
 private:
     void setupUi();
