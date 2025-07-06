@@ -1,0 +1,50 @@
+[Bb]uild/
+*.so
+*.a
+*.dll
+*.exe
+*.o
+compile_commands.json
+
+# User-specific files
+.DS_Store
+*.user
+*.suo
+
+# IDE-specific
+.idea/
+.vscode/
+*.cproject
+*.project
+
+
+
+# General
+*.swp
+*~
+.DS_Store
+
+# C++ Build Artifacts (CMake)
+/build/
+/compile_commands.json
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+
+# Qt specific
+*.user
+*_plugin_import.cpp
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Project specific
+/projectM-qt-visualizer
+
+# IDE/Editor specific
+/.vscode/
+/.idea/
+/nbproject/

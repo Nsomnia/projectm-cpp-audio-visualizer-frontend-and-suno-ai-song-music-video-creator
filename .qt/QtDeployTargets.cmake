@@ -1,0 +1,4 @@
+set(__QT_DEPLOY_TARGET_AuroraTests_FILE /home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/AuroraTests)
+set(__QT_DEPLOY_TARGET_AuroraTests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_AuroraVisualizer_FILE /home/nsomnia/Documents/projectm_audio_visualizer_qt/AuroraVisualizer)
+set(__QT_DEPLOY_TARGET_AuroraVisualizer_TYPE EXECUTABLE)

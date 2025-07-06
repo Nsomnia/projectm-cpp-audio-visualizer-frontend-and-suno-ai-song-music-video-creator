@@ -1,0 +1,5 @@
+add_test([=[ExampleSuite.TrivialAssertion]=]  /home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/AuroraTests [==[--gtest_filter=ExampleSuite.TrivialAssertion]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ExampleSuite.TrivialAssertion]=]  PROPERTIES WORKING_DIRECTORY /home/nsomnia/Documents/projectm_audio_visualizer_qt/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ExampleSuite.StringComparison]=]  /home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/AuroraTests [==[--gtest_filter=ExampleSuite.StringComparison]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ExampleSuite.StringComparison]=]  PROPERTIES WORKING_DIRECTORY /home/nsomnia/Documents/projectm_audio_visualizer_qt/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  AuroraTests_TESTS ExampleSuite.TrivialAssertion ExampleSuite.StringComparison)

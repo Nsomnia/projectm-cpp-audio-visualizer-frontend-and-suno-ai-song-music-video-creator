@@ -1,0 +1,5 @@
+if(EXISTS "/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/AuroraTests[1]_tests.cmake")
+  include("/home/nsomnia/Documents/projectm_audio_visualizer_qt/tests/AuroraTests[1]_tests.cmake")
+else()
+  add_test(AuroraTests_NOT_BUILT AuroraTests_NOT_BUILT)
+endif()

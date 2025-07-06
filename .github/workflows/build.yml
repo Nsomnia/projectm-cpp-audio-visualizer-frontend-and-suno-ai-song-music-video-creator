@@ -1,0 +1,31 @@
+# DRAFT TEMPLATE PROBABLY NOT COMPATIBLE
+
+# .github/workflows/build.yml
+name: C++ CI on Arch Linux
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux:latest
+
+    steps:
+    - name: Update System and Install Dependencies
+      run: |
+        pacman -Syu --noconfirm
+        pacman -S --noconfirm git cmake gcc qt6-base projectm
+
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Configure CMake
+      run: cmake -B build -S .
+
+    - name: Build Project
+      run: cmake --build build
