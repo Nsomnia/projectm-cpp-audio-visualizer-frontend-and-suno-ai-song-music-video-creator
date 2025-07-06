@@ -38,6 +38,7 @@ private slots:
     void downloadFromSuno();
     void openLyricsFile();
     void advanceLyrics();
+    void checkSongFinished();
 
 private:
     void setupUi();
@@ -57,6 +58,8 @@ private:
     QAction* m_startRecordingAction;
     QAction* m_stopRecordingAction;
 
+    bool m_isPlaying;
+
     struct LyricLine {
         std::string text;
         double startTime;
@@ -66,6 +69,7 @@ private:
     std::vector<LyricLine> m_lyrics;
     int m_currentLyricIndex;
     QTimer m_lyricsTimer;
+    QTimer m_songEndTimer;
     QProcess* m_sttProcess;
 
     void loadLyrics(const std::string& jsonLyricsContent);
