@@ -31,6 +31,7 @@ public:
     void selectNextPreset();
     void setLyrics(const std::string& lyrics);
     void clearLyrics();
+    void setShuffle(bool shuffle);
 
 public slots:
     void render();
